@@ -1,0 +1,23 @@
+package com.school;
+
+public class Main {
+    public static void main(String[] args) {
+        Student s1 = new Student("Alice");
+        Student s2 = new Student("Bob");
+        Student s3 = new Student("Charlie");
+
+        Course c1 = new Course("Mathematics");
+        Course c2 = new Course("Physics");
+        Course c3 = new Course("Chemistry");
+
+        System.out.println("--- Students ---");
+        s1.displayDetails();
+        s2.displayDetails();
+        s3.displayDetails();
+
+        System.out.println("\n--- Courses ---");
+        c1.displayDetails();
+        c2.displayDetails();
+        c3.displayDetails();
+    }
+}
